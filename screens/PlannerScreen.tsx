@@ -3,6 +3,7 @@ import React from 'react';
 
 export default function PlannerScreen({navigation}:any)
 {
+    console.log("render paln");
 
     return(
             <View>

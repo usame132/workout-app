@@ -4,13 +4,13 @@ import React from 'react';
 
 export default function HomeScreen({navigation}: any)
 {
-
+console.log("render home");
 return(  
     <View>
        <Text> hello its my home screen</Text>
       <Button title="Go to planner"
        onPress={ () =>
-    navigation.push("Root",{screen:"Planner"}) }
+    navigation.navigate("Root",{screen:"Planner"}) }
         />
     </View>
 
