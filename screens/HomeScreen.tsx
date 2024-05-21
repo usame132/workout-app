@@ -5,17 +5,20 @@ import data from "../data.json"
 export default function HomeScreen({navigation}: any)
 {
 
+      const renderItem = ({item}:{item: any}) =>
+        (
+          <View>
+          <Text>{item.name}</Text>
+          <Text>{item.slug}</Text>
+
+        </View>
+        )
   
-console.log("render home");
 return(  
     <View>
     
       <FlatList data={data}
-        renderItem={({item}) =>
-          <View>
-            <Text>{item.name}</Text>
-          </View>
-      }
+        renderItem={renderItem}
       />
     </View> 
     )
