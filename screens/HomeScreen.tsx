@@ -18,7 +18,7 @@ export default function HomeScreen({navigation}: any)
 return(  
     <View>
     
-      <FlatList data={data}
+      <FlatList data={data as Array<Workout>}
         renderItem={renderItem}
       />
     </View> 
