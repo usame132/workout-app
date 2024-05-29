@@ -107,5 +107,107 @@
             "duration": 10
           }
         ]
-      }
+      },
+      {
+        "slug": "cardio-workout-1231283",
+        "name": "Cardio Workout",
+        "duration": 260,
+        "difficulty": "hard",
+        "sequence": [
+          {
+            "slug": "jumping-jacks-1237191",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-1212337191",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          },
+          {
+            "slug": "jumping-jacks-12323214",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-2142123212",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          }
+        ]
+      } ,
+      {
+        "slug": "cardio-workout-1231283",
+        "name": "Cardio Workout",
+        "duration": 260,
+        "difficulty": "hard",
+        "sequence": [
+          {
+            "slug": "jumping-jacks-1237191",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-1212337191",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          },
+          {
+            "slug": "jumping-jacks-12323214",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-2142123212",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          }
+        ]
+      } ,
+      {
+        "slug": "cardio-workout-1231283",
+        "name": "Cardio Workout",
+        "duration": 260,
+        "difficulty": "hard",
+        "sequence": [
+          {
+            "slug": "jumping-jacks-1237191",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-1212337191",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          },
+          {
+            "slug": "jumping-jacks-12323214",
+            "name": "Jumping Jacks",
+            "type": "exercise",
+            "reps": 100,
+            "duration": 120
+          },
+          {
+            "slug": "breath-2142123212",
+            "name": "Breath",
+            "type": "break",
+            "duration": 10
+          }
+        ]
+      }  
     ]

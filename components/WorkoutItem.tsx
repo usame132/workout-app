@@ -27,7 +27,8 @@ container : {
     borderColor : "rgba(0,0,0, 0.1)",
     borderWidth : 1 ,
     padding : 20 ,
-    margin : 10
+    margin : 10,
+    backgroundColor : "#fff"
 } ,
 
 name : {
