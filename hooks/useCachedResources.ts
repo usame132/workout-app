@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import * as Font from  "expo-font";
 
 
 
@@ -7,11 +8,21 @@ export default function useCachedResources() {
     const [isLoadingComplete,setIsLoadingComplete] = useState(false)
 
 useEffect(()=>{
-    function loadResourcesAndDataAsync(){
+    async function loadResourcesAndDataAsync(){
 
-        setTimeout(()=> {
-                setIsLoadingComplete(true)}
-                    ,3000 )
+        try {
+            await  Font.loadAsync({
+                "montserrat" : require("../assets/fonts/Montserrat-Regular.ttf"),
+                "montserrat-bold" : require("../assets/fonts/Montserrat-Bold.ttf")
+                })
+        }
+        catch (e){
+            console.warn(e);     
+        }
+        finally{
+            setIsLoadingComplete(true);
+        }
+
         }
     loadResourcesAndDataAsync()
 },[])
